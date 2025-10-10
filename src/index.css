@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+@layer base {
+   body {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  li{
+    @apply px-4;
+    @apply cursor-pointer
+  }
+}
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover{
+    background-image: linear-gradient(
+    to right, rgba(239, 243, 6, 0.856),
+    hsla(56, 94%, 51%, 0.89)
+    ) !important;
+}
