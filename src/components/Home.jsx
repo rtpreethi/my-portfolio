@@ -21,9 +21,7 @@ const Home = () => {
           </h2>
 
           <p className="text-[#8892b0] py-4 max-w-[600px]">
-            I’m a Java full-stack developer with 7 years of experience. I help
-            companies build reliable, scalable applications that improve
-            efficiency without adding complexity.
+           I’m a Java full-stack developer passionate about building reliable, scalable enterprise applications that improve efficiency without unnecessary complexity.
           </p>
           <div className="flex justify-center md:justify-start">
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-400 hover:border-yellow-300">
